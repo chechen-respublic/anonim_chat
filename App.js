@@ -1,4 +1,4 @@
-let socket = new WebSocket("ws://localhost:3000/");
+let socket = new WebSocket("ws://http://913e-188-0-188-195.ngrok.io");
 
 socket.onopen = () => {
   let h3_ws_status = document.querySelector('.h3_ws_status')
