@@ -27,7 +27,7 @@ function send_msg(){
           let status_send = document.querySelector('.status_send')
           if(msg.data === 'Печатает...'){status_send.innerHTML = 'Печатает...'}else{status_send.innerHTML = ''}
 
-          socket.close
+      
 }
 
         
